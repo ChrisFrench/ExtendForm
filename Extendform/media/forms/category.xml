@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset
+			name="basic">
+			<field
+				name="image_url"
+				type="text"
+				label="Link URL"
+				description="Custom Link For Image" />
+			<field
+				name="popup_text"
+				type="text"
+				label="Pop Up text"
+				description="Text for the pop up text over image" />		
+				
+		</fieldset>
+	</fields>
+</form>
