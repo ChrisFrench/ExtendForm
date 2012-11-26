@@ -13,13 +13,13 @@ DEFAULT CHARACTER SET = utf8;
 -- Table `#__extendform`
 -- -----------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS `#__extendform` (
+CREATE TABLE IF NOT EXISTS `#__extendform_forms` (
 	`id` int NOT NULL AUTO_INCREMENT,
 	`title` varchar(255),
 	`form` varchar(255),
 	`component` varchar(255),
 	`xmlfile` varchar(255),
-	`published` tinyint NOT NULL,
+	`enabled` tinyint NOT NULL,
 	PRIMARY KEY (`id`))
 ENGINE=`MyISAM`
 DEFAULT CHARACTER SET = utf8;

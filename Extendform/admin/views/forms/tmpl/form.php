@@ -52,13 +52,7 @@
 	            
 				</td>
 			</tr>
-			<tr>
-				<td class="key"> <?php echo JText::_('Form Name'); ?>: </td>
-				<td>
-				<input name="formname" value="<?php echo @$row -> formname; ?>" size="50" maxlength="250" type="text" style="font-size: 20px;" />
-	            
-				</td>
-			</tr>
+			
 		</table>
 	</fieldset>
 	<div>

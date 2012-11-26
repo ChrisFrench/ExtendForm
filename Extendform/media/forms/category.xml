@@ -4,15 +4,10 @@
 		<fieldset
 			name="basic">
 			<field
-				name="image_url"
+				name="Itemid"
 				type="text"
-				label="Link URL"
-				description="Custom Link For Image" />
-			<field
-				name="popup_text"
-				type="text"
-				label="Pop Up text"
-				description="Text for the pop up text over image" />		
+				label="Item ID"
+				description="Item ID for this Category" />		
 				
 		</fieldset>
 	</fields>

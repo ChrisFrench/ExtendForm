@@ -1,6 +1,6 @@
 <?php 
 defined( '_JEXEC' ) or die( 'Restricted access' );
-
+ini_set ( 'max_execution_time', 1200); 
 $installer = new ExtendformInstaller();
 if (!$installer->getLibrary())
 {
@@ -21,7 +21,7 @@ else
 {
     if (JFile::exists(JPATH_SITE.'/libraries/dioscouri/component/install.php'))
     {
-        $thisextension = strtolower( "com_favorites" );
+        $thisextension = strtolower( "com_extendform" );
         $thisextensionname = substr ( $thisextension, 4 );
         include JPATH_SITE . '/libraries/dioscouri/component/install.php';
     }
