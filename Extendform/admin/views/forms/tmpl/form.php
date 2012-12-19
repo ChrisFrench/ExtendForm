@@ -44,14 +44,15 @@
 	            
 				</td>
 			</tr>
-
 			<tr>
-				<td class="key"> <?php echo JText::_('Path'); ?>: </td>
+				<td class="key"> <?php echo JText::_('Effect form side'); ?>: </td>
 				<td>
-				<input name="path" value="<?php echo @$row -> path; ?>" size="50" maxlength="250" type="text" style="font-size: 20px;" />
+				<?php echo ExtendformSelect::side(@$row -> side); ; ?>
 	            
 				</td>
 			</tr>
+
+			
 			
 		</table>
 	</fieldset>

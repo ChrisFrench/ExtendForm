@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="system" method="upgrade">
-	<name>plg_system_extendform</name>
+	<name>ExtendForm - System</name>
 	<author>Chris French</author>
 	<creationDate>May 2012</creationDate>
 	<copyright>All rights reserved.</copyright>
